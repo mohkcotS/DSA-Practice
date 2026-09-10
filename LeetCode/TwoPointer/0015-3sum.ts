@@ -1,3 +1,13 @@
+/**
+ * Problem: 3Sum
+ * Link: Medium
+ * Difficulty: https://leetcode.com/problems/3sum
+ * 
+ * Time Complexity: O(n^2)
+ * Space Complexity: O(n)
+ */
+
+export 
 function threeSum(nums: number[]): number[][] {
   nums = nums.sort((a, b) => a - b);
   let n = nums.length;
